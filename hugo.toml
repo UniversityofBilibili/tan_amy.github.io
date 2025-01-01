@@ -1,0 +1,58 @@
+baseURL = 'https://tan_amy.github.io'
+languageCode = 'en-us'
+title = 'Our Wedding Photos ❤'
+theme = 'paper'
+
+enableInlineShortcodes = 'true' #允许内联短码
+enableEmoji = 'true'   #允许使用 Emoji 表情，建议 true
+enableRobotsTXT = 'true' #允许爬虫抓取到搜索引擎，建议 true
+hasCJKLanguage = 'true' #自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+
+buildDrafts = 'false'
+buildFuture = 'false'
+buildExpired = 'false'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+[[menu.main]]
+identifier = "shanghai"
+name = "上海/🇨🇳"
+url = "/shanghai"
+weight = 10
+
+[[menu.main]]
+identifier = "chengdu"
+name = "成都/🇨🇳"
+url = "/chengdu"
+weight = 20
+
+[[menu.main]]
+identifier = "australia"
+name = "澳洲/🇦🇺"
+url = "/australia/"
+weight = 30
+
+
+
+[params]
+author = "Chris"
+description = "There need to be add description"
+#twitter = ''                # twitter.com/YOUR_TWITTER_ID
+#   github = ''                  # github.com/YOUR_GITHUB_ID
+instagram = ''            # instagram.com/YOUR_INSTAGRAM_ID
+avatar = ""
+fancybox = true
+
+[taxonomies]
+tag = "tags"
+
+[assets]
+favicon = "img/appe-touch-icon.png"
+favicon16x16 = "img/appe-touch-icon.png"
+favicon32x32 = "img/appe-touch-icon.png"
+apple_touch_icon = "img/appe-touch-icon.png"
+safari_pinned_tab = "img/appe-touch-icon.png"
