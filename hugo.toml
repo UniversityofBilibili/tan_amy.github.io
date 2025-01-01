@@ -1,6 +1,6 @@
 baseURL = 'https://tan_amy.github.io'
 languageCode = 'en-us'
-title = 'Our Wedding Photos ❤'
+title = 'Our Wedding Photos'
 theme = 'paper'
 
 enableInlineShortcodes = 'true' #允许内联短码
